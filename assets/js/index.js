@@ -58,9 +58,8 @@
 
 //alert(a);
 
-
-
-
-let a = null +1;
+let a = null + 1;
 
 alert(a);
+
+let b = 10;
