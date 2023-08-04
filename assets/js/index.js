@@ -1,65 +1,27 @@
-//let a = 1;
-//const cat = "Mursik";
+// операторы + ,-,*,/, %,**
 
-//let number = a + b;
+let a = 2 + 3; //прибавление
+let b = 5 - 3; //вычитание
+let c = 3 * 5; //умножение
+let d = 6 / 2; //деление
+let e = 8 % 3; //остаток от деления
+let h = 3 ** 3; //степень
 
-//console.log(number);
+let j = "Illya" + " Volobuev"; //конкотинация(склеивание)
 
-//a = 5;
-//b = 6;
+let k = a > b; //true
+let r = c < d;
+let l = a >= b;
+let p = a <= b;
 
-//number = a + b;
+console.log("Aaaa" > "Aaa");
 
-//console.log(number);
+let year = confirm("тебя зовут Илля?");
 
-//a = 7;
-//b = 10;
-
-//number = a + b;
-
-//console.log(number);
-
-//function sumNumber(a, b, c, m) {
-//  return a + b + c + m;
-//}
-
-//console.log(sumNumber(prompt(),prompt(),prompt(),prompt()));
-
-//Number , String, undefined, null,
-//Boolean ,BigInt, Symbol, Object
-
-//let value = true;
-//console.log(typeof value);
-//console.log(value)
-
-//value = String(value)
-//console.log(typeof value);
-//console.log(value);
-
-//let str = "3" + 7;
-//console.log(typeof str);
-//console.log(str);
-////str = Number(str);
-//console.log(+str);
-//console.log(typeof str);
-//console.log(str);
-
-//let x = 6;
-//x++
-
-//alert(+x);
-
-//let counter = 1;
-//let a = ++counter;
-
-//alert(a);
-
-//let a = (1+2,3+4);
-
-//alert(a);
-
-let a = null + 1;
-
-alert(a);
-
-let b = 10;
+if (year ) {
+  alert("Тебе 14 лет");
+} else if (year > 5) {
+  alert("ты малой");
+} else if (year > 10) {
+  alert("ты уже не  малой но тебе еще нельзя");
+}alert("ты пупсик");
